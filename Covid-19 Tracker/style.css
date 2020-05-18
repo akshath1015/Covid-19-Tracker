@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway';
+}
+
+#top {
+    min-width: 100vw;
+    min-height:20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+#bottom {
+    display: flex;
+}
+#heading {
+    color: antiquewhite;
+    letter-spacing: 0.25rem;
+    font-weight: 900;
+}
+#left-half, #right-half {
+    position: absolute;;
+    top: 20vh;
+    height: 80vh;
+    width: 50vw;
+}
+#left-half {
+    background-color: beige
+}
+#right-half {
+    background-color: burlywood;
+    right:0
+}
+.locations {
+    text-align: center;
+    padding: 10px;
+    font-weight: 900;
+}
+#search-bar {
+    text-align: center;
+    padding:15px;
+    width: 100%;
+}
+#search {
+    border-top-style: groove;
+    border-right-style: ridge;
+    border-left-style: ridge;
+    border-bottom-style: groove;
+    background: none;
+    text-decoration: none;
+    outline: none;
+    padding: 15px;
+    width: 60%;
+    border-radius: 8px;
+    color:steelblue;
+    font-weight: 400;
+    font-size: 15px;
+}
+#search-icon {
+    padding: 15px;
+    position:absolute;
+    left:70vh;
+}
+.global {
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    left: 14%;
+    top:6%;
+    width: 80%;
+    height: 80%;
+}
+.overall, .today {
+    text-align: center;
+    width: 50vw;
+   
+}
+.information {
+    position: relative;
+    top:3%;
+    left:0%;
+}
+.text-container {
+    background-color: yellowgreen;
+    border-radius: 15px;
+    font-weight: 600;
+    margin: 17px;
+    padding:30px;
+    height: 6vh;
+    width: 50%;
+    transition: all 0.4s ease;
+}
+.text-container:hover {
+    transform: scale(1.15);
+    cursor: pointer;
+}
+.confirmed {
+    background-color: #331828;
+    color: #FE093A;
+}
+.deaths {
+    background-color: #1D1C2B;
+    color: #6C757C;
+}
+.recovered {
+    background-color:#1A2829;
+    color: #29A645;
+}
+p {
+    letter-spacing: 0.09rem;
+}
+#info-half {
+    height: 60vh;
+}

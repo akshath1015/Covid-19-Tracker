@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <title>Covid-19 Tracker</title>
+</head>
+<body>
+    <div id="top">
+        <h1 id="heading">Covid-19 Tracker</h1>
+    </div>
+    <div id="bottom">
+        <div id="left-half">
+            <h1 id="country-location" class="locations">Country</h1>
+            <div id="search-bar">
+                <i id="search-icon" class="fas fa-search"></i>
+                <input type="text" id="search" name="country" placeholder="Search country...">
+            </div>
+            <div id="info-half">
+                <div class="global">
+                <div class="overall">
+                    <h2>Overall</h2>
+                    <div class="information">
+                        <div class="text-container confirmed"><p>Total Confirmed <br><br><span id="total-confirmed-c-o"></span></p></div>
+                        <div class="text-container deaths"><p>Total Deaths <br><br><span id="total-deaths-c-o"></span></p></div>
+                        <div class="text-container recovered"><p>Total Recovered <br><br><span id="total-recovered-c-o"></span></p></div>
+                    </div>
+                  
+                </div>
+                <div class="today">
+                    <h2>Today</h2>
+                    <div class="information">
+                        <div class="text-container confirmed"><p>Total Confirmed <br><br><span id="total-confirmed-c-t"></span></p></div>
+                        <div class="text-container deaths"><p>Total Deaths <br><br><span id="total-deaths-c-t"></span></p></div>
+                        <div class="text-container recovered"><p>Total Recovered <br><br><span id="total-recovered-c-t"></span></p></div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+        <div id="right-half">
+            <h1 class="locations">Global</h1>
+            <div class="global">
+                <div class="overall">
+                    <h2>Overall</h2>
+                    <div class="information">
+                        <div class="text-container confirmed"><p>Total Confirmed <br><br><span id="total-confirmed-g-o"></span></p></div>
+                        <div class="text-container deaths"><p>Total Deaths <br><br><span id="total-deaths-g-o"></span></p></div>
+                        <div class="text-container recovered"><p>Total Recovered <br><br><span id="total-recovered-g-o"></span></p></div>
+                    </div>
+                  
+                </div>
+                <div class="today">
+                    <h2>Today</h2>
+                    <div class="information">
+                        <div class="text-container confirmed"><p>Total Confirmed <br><br><span id="total-confirmed-g-t"></span></p></div>
+                        <div class="text-container deaths"><p>Total Deaths <br><br><span id="total-deaths-g-t"></span></p></div>
+                        <div class="text-container recovered"><p>Total Recovered <br><br><span id="total-recovered-g-t"></span></p></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div>
+        ABCD
+    </div>
+    
+
+    
+
+
+<script src="app.js"></script>    
+</body>
+</html>
